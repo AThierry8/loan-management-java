@@ -39,29 +39,9 @@ public class Customer {
 
     public  void setcustomerId(int customerId){
 
-        if (customerId<0){
-            System.out.println("Id cannot be negative");
-        }
-        else{
-            this.customerId= customerId;
-
-        }
-
-        
-
     }
 
      public  void setcustomerName( String customerName){
-
-        if(customerName==" "){
-            System.out.println("the name cannot be blank");
-
-        }
-        else{
-            this.customerName= customerName;
-        }
-
-        
 
     }
 
